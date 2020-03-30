@@ -127,4 +127,52 @@ footer{
     height: 454px;
 }
 
+.owl-carousel .owl-nav .owl-prev{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    color: #24282f;
+    font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900!important;
+}
+
+.owl-carousel .owl-nav .owl-prev:before{
+    content: "\f053";
+}
+.owl-carousel .owl-nav .owl-next{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    color: #24282f!important;
+    font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900!important;
+}
+.owl-carousel .owl-nav .owl-next:before{
+    content: "\f054";
+}
+.owl-carousel .owl-dots{
+    text-align: center;
+    margin-top: 10px;
+}
+.owl-carousel .owl-dots{
+    margin-right: 0;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: black !important;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.owl-carousel .owl-dots .active span{
+    background-color: red!important;
+}
+
 
